@@ -1,0 +1,11 @@
+Víztároló kapacitás kiszámolása
+
+Feladat
+Adott egy nem negatív számokat tartalmazó egydimenziós tömb. A számok a talajszint magasságát reprezentálják, 0 és 10 közötti számot tartalmazhatnak, az intervallum határait is beleértve. Egy tömb elem egy egységnyi széles. Esőzés után a "gödrök" megtelnek vízzel. Kérdés, hogy mennyi vizet képes tárolni egy adott terep.
+A terepet reprezentáló tömb legyen véletlenszerűen generált, legalább 10 hosszú.
+A terepet rajzolja ki a standard outputra a program, a földet '*' a vizet '-' karakter reprezentálja!
+Legyen lehetőség arra is, hogy a felhasználó adja meg bemenetként a terep tömbjét!
+Opcionális
+A 10 talajmagasság helyett 10 000 legyen a maximum magasság és ugyanennyi legyen a tömb mérete is!
+Optimalizáld a víztároló kapacitást kiszámoló algoritmust, végezz méréseket, hogy az algoritmust tartalmazó metódus hány nanosecundum alatt fut le! (System.nanotime metódus)
+Készíts statisztikát, ami N véletlenszerű terepen iterál végig, hogy melyik terep víztároló kapacitásának a kiszámítása tartott a legkevesebb ideig, a legtöbb ideig, és a program futása után írd ki a standard kimenetre az ezekhez tartozó terepeket is!
