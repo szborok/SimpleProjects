@@ -24,8 +24,14 @@ public class Main {
         System.out.println(Fibonacci.getFibonacci(15));
         System.out.println("---");
         
+        System.out.println("Reservoir with random generated fields.");
         Reservoir land1 = new Reservoir(10,10);
         land1.printDetails();
+        System.out.println("---");
+        
+        System.out.println("Multiplication table's each row and column.");
+        MultiplicationTable.rowAndColumnOfMultiplyTableOf10();
+        System.out.println("---");
         
     
     
